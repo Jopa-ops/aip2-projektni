@@ -13,6 +13,6 @@ int main()
     {
         cout << "\nRiječ: " << skrivena << "\n";
         cout << "Preostali pokušaji: " << pokusaji << "\n";
-        cout << "Unesi slovo: ";
+        cout << "Unesite slovo: ";
         char slovo;
         cin >> slovo;
