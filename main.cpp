@@ -21,3 +21,7 @@ int main()
         {
             if (rijec[i] == slovo)
             {
+                skrivena[i] = slovo;
+                pogodak = true;
+            }
+        }
