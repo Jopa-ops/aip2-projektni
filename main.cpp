@@ -16,3 +16,8 @@ int main()
         cout << "Unesite slovo: ";
         char slovo;
         cin >> slovo;
+        bool pogodak = false;
+        for (int i = 0; i < rijec.length(); i++)
+        {
+            if (rijec[i] == slovo)
+            {
