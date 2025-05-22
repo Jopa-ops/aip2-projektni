@@ -9,3 +9,7 @@ int main()
     cin >> rijec;
     string skrivena(rijec.length(), '_');
     int pokusaji = 6;
+    while (skrivena != rijec && pokusaji > 0)
+    {
+        cout << "\nRiječ: " << skrivena << "\n";
+        cout << "Preostali pokušaji: " << pokusaji << "\n";
