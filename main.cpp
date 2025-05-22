@@ -1,10 +1,9 @@
-#define DG 1
-#include "debug.h"
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
-    int a = 5;
-    dv(a);
-
+    cout << "Hello, World!" << endl;
     return 0;
 }
