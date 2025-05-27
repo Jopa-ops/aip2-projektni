@@ -28,4 +28,8 @@ int main()
         if(!pogodak)
         {
             cout << "Promašaj!";
+            pokušaji--;
+        } else {
+            cout<<"Pogodak!\n"
         }
+    }
