@@ -16,15 +16,17 @@ int main()
         cout << "Unesite slovo: ";
         char slovo;
         cin >> slovo;
+        slovo = tolower(slovo);
         bool pogodak = false;
         for (int i = 0; i < rijec.length(); i++)
+
         {
-            if (rijec[i] == slovo)
+            if (tolower(rijec[i]) == slovo && skrivena[i]=='_')
             {
                 skrivena[i] = slovo;
                 pogodak = true;
             }
-        } 
+        }
         if(!pogodak)
         {
             cout << "Promašaj!";
