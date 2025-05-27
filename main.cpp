@@ -24,4 +24,8 @@ int main()
                 skrivena[i] = slovo;
                 pogodak = true;
             }
+        } 
+        if(!pogodak)
+        {
+            cout << "Promašaj!";
         }
