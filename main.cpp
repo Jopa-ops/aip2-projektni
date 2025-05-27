@@ -36,4 +36,5 @@ int main()
     if(skrivena == rijec)
     {
         cout << "\n Čestitamo! Pogodio si riječ." << rijec << endl;
+        else
     }
