@@ -28,13 +28,13 @@ int main()
         if(!pogodak)
         {
             cout << "Promašaj!";
-            pokušaji--;
+            pokusaji--;
         } else {
-            cout<<"Pogodak!\n"
+            cout << "Pogodak!\n";
         }
     }
     if(skrivena == rijec)
-    {
+    
         cout << "\n Čestitamo! Pogodio si riječ." << rijec << endl;
         else 
         cout << "Izgubio si. Tražena riječ je bila:" << rijec << endl;
