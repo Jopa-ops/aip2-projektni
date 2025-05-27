@@ -35,5 +35,5 @@ int main()
     }
     if(skrivena == rijec)
     {
-        
+        cou
     }
