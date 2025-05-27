@@ -33,3 +33,7 @@ int main()
             cout<<"Pogodak!\n"
         }
     }
+    if(skrivena == rijec)
+    {
+        
+    }
