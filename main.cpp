@@ -45,11 +45,8 @@ int main()
 
     if (skrivena == rijec)
     {
-        cout << "\nČestitamo! Pogodio si riječ: " << rijec << endl;
+        cout << "\n Čestitamo! Pogodio si riječ." << rijec << endl;
+        else 
+        cout << "Izgubio si. Tražena riječ je bila:" << rijec << endl;
+        return 0;
     }
-    else
-    {
-        cout << "Izgubio si. Tražena riječ je bila: " << rijec << endl;
-    }
-    return 0;
-}
