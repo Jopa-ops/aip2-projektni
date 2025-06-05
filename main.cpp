@@ -52,3 +52,4 @@ int main()
         cout << "Izgubio si. Tražena riječ je bila:" << rijec << endl;
         return 0;
     }
+}
